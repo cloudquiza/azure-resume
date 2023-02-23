@@ -27,7 +27,7 @@ jobs:
         with:
           azcliversion: 2.0.72
           inlineScript: |
-            az cdn endpoint purge --content-paths "/*" --resource-group azure-resume --profile-name azureresume-cu --name azureresume-cu
+            az cdn endpoint purge --content-paths "/*" --resource-group ctsgetresumecounter --profile-name azureresume-cu --name azureresume-cu
 
       # Azure logout
       - name: logout
